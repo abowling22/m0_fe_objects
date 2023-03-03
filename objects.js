@@ -112,12 +112,13 @@ console.log(posts[0]);
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
 
-var emailPortions = 
-{
-  "Subject": "subject line",
-  "Salutations": "Closing", 
-  "Body": "CTA"
-}
-console.log(emailPortions)
+emailParts =
+[
+  { sender: "bob" },
+  { subject: "friendship" },
+  { body: "texthere"}
+];
+
+console.log(emailParts)
 
 
